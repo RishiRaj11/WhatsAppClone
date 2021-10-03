@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/WhatsAppClone/static/js/main.4c3820ec.chunk.js",
+    "main.js.map": "/WhatsAppClone/static/js/main.4c3820ec.chunk.js.map",
+    "runtime-main.js": "/WhatsAppClone/static/js/runtime-main.46dffc60.js",
+    "runtime-main.js.map": "/WhatsAppClone/static/js/runtime-main.46dffc60.js.map",
+    "static/js/2.7b43aa97.chunk.js": "/WhatsAppClone/static/js/2.7b43aa97.chunk.js",
+    "static/js/2.7b43aa97.chunk.js.map": "/WhatsAppClone/static/js/2.7b43aa97.chunk.js.map",
+    "index.html": "/WhatsAppClone/index.html",
+    "static/js/2.7b43aa97.chunk.js.LICENSE.txt": "/WhatsAppClone/static/js/2.7b43aa97.chunk.js.LICENSE.txt",
+    "static/media/ayushk.ee146b33.jpeg": "/WhatsAppClone/static/media/ayushk.ee146b33.jpeg",
+    "static/media/elon.84b864e4.jpeg": "/WhatsAppClone/static/media/elon.84b864e4.jpeg",
+    "static/media/emoji.1bf12fbb.png": "/WhatsAppClone/static/media/emoji.1bf12fbb.png",
+    "static/media/jeff.9128513e.jpeg": "/WhatsAppClone/static/media/jeff.9128513e.jpeg",
+    "static/media/selfimg.2473779f.jpg": "/WhatsAppClone/static/media/selfimg.2473779f.jpg",
+    "static/media/welcome-placeholder.6cc48a1e.jpeg": "/WhatsAppClone/static/media/welcome-placeholder.6cc48a1e.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46dffc60.js",
+    "static/js/2.7b43aa97.chunk.js",
+    "static/js/main.4c3820ec.chunk.js"
+  ]
+}
