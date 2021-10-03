@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import selfimg from "../Profile/selfimg.jpg";
+
 const ContactItem=styled.div`
 display:flex;
 flex-diection:row;
@@ -8,6 +8,9 @@ width:100%;
 border-bottom:1px solid #f2f2f2;
 background:white;
 cursor:pointer;
+:hover{
+background:#ebebeb;
+}
 `;
 
 const ContactsImage = styled.img`
@@ -43,15 +46,15 @@ color:rgba(0,0,0,0.45);
 white-space:nowrap;
 margin:8px 12px;
 `;
-const Contacts = () => {
+const Contacts = (props) => {
     return (
-        <ContactItem>
-        <ContactsImage src={selfimg}></ContactsImage>
+        <ContactItem onClick={()=> props.setChat(props.userData)}>
+        <ContactsImage src={props.userData.profilePic}></ContactsImage>
           <ContactInfo>
-          <ContactName>Rishi Raj</ContactName>
-          <MessageText>How are u</MessageText>
+          <ContactName>{props.userData.name}</ContactName>
+          <MessageText>{props.userData.lastText}</MessageText>
           </ContactInfo>  
-          <MessageTime>05:30 PM</MessageTime>
+          <MessageTime>{props.userData.lastTextTime}</MessageTime>
         </ContactItem>
     )
 }

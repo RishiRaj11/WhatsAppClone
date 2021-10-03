@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import selfimg from "../Profile/selfimg.jpg";
 import Contacts from "./Contacts";
+import {contactList} from "./MockData";
+
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -47,7 +49,7 @@ export const SearchInput = styled.input`
  
 
 
-const Contactlist = () => {
+const Contactlist = (props) => {
   return (
     <Container>
       <ProfileInfoDiv src="">
@@ -59,11 +61,9 @@ const Contactlist = () => {
           <SearchInput></SearchInput>
         </SearchContainer>
       </SearchBox>
-      <Contacts />
-      <Contacts />
-      <Contacts />
-      <Contacts />
-      <Contacts />
+      {contactList.map((userData)=>(<Contacts userData={userData} setChat={props.setChat} />))}
+      
+     
     </Container>
   );
 };
